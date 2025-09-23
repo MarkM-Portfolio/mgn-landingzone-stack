@@ -1,0 +1,16 @@
+{
+  "version": "0",
+  "id": "ac1af7d6-f71c-bdb3-0cc7-0de3704b4ef9",
+  "detail-type": "MGN Source Server Launch Result",
+  "source": "aws.mgn",
+  "account": "708136847608",
+  "time": "2022-03-22T10:20:39Z",
+  "region": "eu-west-2",
+  "resources": [
+    "arn:aws:mgn:eu-west-2:708136847608:source-server/s-gdd036657128b27b5"
+  ],
+  "detail": {
+    "state": "TEST_LAUNCH_SUCCEEDED",
+    "job-id": "mgnjob-gf305a45d54610888"
+  }
+}

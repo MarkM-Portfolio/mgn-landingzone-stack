@@ -1,0 +1,18 @@
+{
+    "LaunchTemplates": [
+        {
+            "LaunchTemplateId": "lt-01d047bef6f39c92c",
+            "LaunchTemplateName": "created-and-used-by-application-migration-service-s-gb151551e42b2d383-221803-222646",
+            "CreateTime": "2022-03-18T22:26:46+00:00",
+            "CreatedBy": "arn:aws:sts::708136847608:assumed-role/AWSServiceRoleForApplicationMigrationService/8a69a80b-d037-41dc-ad96-382d9c8e8085",
+            "DefaultVersionNumber": 7,
+            "LatestVersionNumber": 7,
+            "Tags": [
+                {
+                    "Key": "AWSApplicationMigrationServiceManaged",
+                    "Value": "mgn.amazonaws.com"
+                }
+            ]
+        }
+    ]
+}

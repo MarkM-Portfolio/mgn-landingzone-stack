@@ -1,0 +1,15 @@
+{
+  "version": "0",
+  "id": "87a97aa5-2ac1-4cb0-8782-3c2b29d762a6",
+  "detail-type": "MGN Source Server Lifecycle State Change",
+  "source": "aws.mgn",
+  "account": "708136847608",
+  "time": "2022-03-21T19:32:07Z",
+  "region": "eu-west-2",
+  "resources": [
+    "arn:aws:mgn:eu-west-2:708136847608:source-server/s-g79e19aad10270b92"
+  ],
+  "detail": {
+    "state": "READY_FOR_TEST"
+  }
+}

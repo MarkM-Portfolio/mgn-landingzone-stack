@@ -1,0 +1,12 @@
+{
+    "copyPrivateIp": false,
+    "copyTags": false,
+    "ec2LaunchTemplateID": "lt-01d047bef6f39c92c",
+    "launchDisposition": "STARTED",
+    "licensing": {
+        "osByol": false
+    },
+    "name": "Launch Configuration for Source Server s-gb151551e42b2d383",
+    "sourceServerID": "s-gb151551e42b2d383",
+    "targetInstanceTypeRightSizingMethod": "NONE"
+}

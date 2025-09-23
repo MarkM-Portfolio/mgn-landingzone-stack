@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:job/mgnjob-gf305a45d54610888",
+            "creationDateTime": "2022-03-22T10:00:39.208212+00:00",
+            "endDateTime": "2022-03-22T10:20:39.739116+00:00",
+            "initiatedBy": "START_TEST",
+            "jobID": "mgnjob-gf305a45d54610888",
+            "participatingServers": [
+                {
+                    "launchStatus": "LAUNCHED",
+                    "sourceServerID": "s-gb151551e42b2d383"
+                },
+                {
+                    "launchStatus": "LAUNCHED",
+                    "sourceServerID": "s-geceb56814f57849e"
+                },
+                {
+                    "launchStatus": "LAUNCHED",
+                    "sourceServerID": "s-gd7dc854a86bf8a97"
+                },
+                {
+                    "launchStatus": "LAUNCHED",
+                    "sourceServerID": "s-gdd036657128b27b5"
+                },
+                {
+                    "launchStatus": "LAUNCHED",
+                    "sourceServerID": "s-g806362042de18e74"
+                },
+                {
+                    "launchStatus": "LAUNCHED",
+                    "sourceServerID": "s-g79e19aad10270b92"
+                }
+            ],
+            "status": "COMPLETED",
+            "tags": {},
+            "type": "LAUNCH"
+        }
+    ]
+}

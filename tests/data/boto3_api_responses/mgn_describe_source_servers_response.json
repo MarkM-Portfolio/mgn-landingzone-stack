@@ -1,0 +1,1159 @@
+{
+    "items": [
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-gb151551e42b2d383",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:20:58.346994+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 161061273600,
+                        "rescannedStorageBytes": 161061273600,
+                        "totalStorageBytes": 161061273600
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-18T22:26:45.983370+00:00",
+                "elapsedReplicationDuration": "P3DT5H2M14.341306S",
+                "firstByteDateTime": "2022-03-19T13:37:25.793843+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:39.647325+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 161061273600,
+                        "deviceName": "c:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTINT01",
+                    "hostname": "GEN2KTINT01"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:31:16.722467+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.34"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-09-67-99"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 25768771584,
+                "recommendedInstanceType": "c4.4xlarge"
+            },
+            "sourceServerID": "s-gb151551e42b2d383",
+            "tags": {
+                "Name": "GEN2KTINT01"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-g75b52ae43c90ba9d",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:20:51.629234+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 53687091200,
+                        "rescannedStorageBytes": 53687091200,
+                        "totalStorageBytes": 53687091200
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-18T22:41:30.702348+00:00",
+                "elapsedReplicationDuration": "P2DT23H26M30.819394S",
+                "firstByteDateTime": "2022-03-19T13:44:43.191176+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:07.587985+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 2,
+                        "modelName": "Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 53687091200,
+                        "deviceName": "c:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTBRK01.kirkbytyres.v2.sapphire",
+                    "hostname": "GEN2KTBRK01"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:30:14.038038+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.33"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-03-CD-06"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 8588902400,
+                "recommendedInstanceType": "c4.2xlarge"
+            },
+            "sourceServerID": "s-g75b52ae43c90ba9d",
+            "tags": {
+                "Name": "GEN2KTBRK01"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-geceb56814f57849e",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:21:26.700101+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 161061273600,
+                        "rescannedStorageBytes": 161061273600,
+                        "totalStorageBytes": 161061273600
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-20T03:35:05.779613+00:00",
+                "elapsedReplicationDuration": "P1DT18H32M55.718099S",
+                "firstByteDateTime": "2022-03-20T03:36:26.040385+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:20.303479+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 161061273600,
+                        "deviceName": "c:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTINT02",
+                    "hostname": "GEN2KTINT02"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:36:12.068298+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.35"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-06-CC-6B"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 17178836992,
+                "recommendedInstanceType": "c4.4xlarge"
+            },
+            "sourceServerID": "s-geceb56814f57849e",
+            "tags": {
+                "Name": "GEN2KTINT02"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-gd7dc854a86bf8a97",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:20:56.300832+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 161061273600,
+                        "rescannedStorageBytes": 161061273600,
+                        "totalStorageBytes": 161061273600
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-20T12:17:12.236414+00:00",
+                "elapsedReplicationDuration": "P1DT9H50M49.272164S",
+                "firstByteDateTime": "2022-03-20T12:50:37.646186+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:11.545691+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 161061273600,
+                        "deviceName": "c:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTRDS01.kirkbytyres.v2.sapphire",
+                    "hostname": "GEN2KTRDS01"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:18:10.964739+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.3"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-06-CC-66"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 17179398144,
+                "recommendedInstanceType": "c4.4xlarge"
+            },
+            "sourceServerID": "s-gd7dc854a86bf8a97",
+            "tags": {
+                "Name": "GEN2KTRDS01"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-ge14e82f0aba1c2f7",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:21:16.087046+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 161061273600,
+                        "rescannedStorageBytes": 161061273600,
+                        "totalStorageBytes": 161061273600
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-20T12:18:55.175242+00:00",
+                "elapsedReplicationDuration": "P1DT9H49M6.311929S",
+                "firstByteDateTime": "2022-03-20T12:21:01.839821+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:30.441590+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 161061273600,
+                        "deviceName": "c:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTDMZ01",
+                    "hostname": "GEN2KTDMZ01"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:20:11.513870+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.36"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-01-44-84"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 17178836992,
+                "recommendedInstanceType": "c4.4xlarge"
+            },
+            "sourceServerID": "s-ge14e82f0aba1c2f7",
+            "tags": {
+                "Name": "GEN2KTDMZ01"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-gdd036657128b27b5",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:20:58.970031+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 161061273600,
+                        "rescannedStorageBytes": 161061273600,
+                        "totalStorageBytes": 161061273600
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-20T12:56:17.965790+00:00",
+                "elapsedReplicationDuration": "P1DT9H11M43.487445S",
+                "firstByteDateTime": "2022-03-20T12:57:39.191211+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:50.047336+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 161061273600,
+                        "deviceName": "c:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTRDS03.kirkbytyres.v2.sapphire",
+                    "hostname": "GEN2KTRDS03"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:57:18.885182+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.5"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-09-67-9A"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 34359267328,
+                "recommendedInstanceType": "c4.8xlarge"
+            },
+            "sourceServerID": "s-gdd036657128b27b5",
+            "tags": {
+                "Name": "GEN2KTRDS03"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-g806362042de18e74",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:20:52.114586+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 161061273600,
+                        "rescannedStorageBytes": 161061273600,
+                        "totalStorageBytes": 161061273600
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-20T12:58:31.061103+00:00",
+                "elapsedReplicationDuration": "P1DT9H9M30.451529S",
+                "firstByteDateTime": "2022-03-20T13:00:14.647518+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:08.716848+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 161061273600,
+                        "deviceName": "c:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTRDS02.kirkbytyres.v2.sapphire",
+                    "hostname": "GEN2KTRDS02"
+                },
+                "lastUpdatedDateTime": "2022-03-21T22:00:01.166874+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.4"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-01-44-71"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 17179398144,
+                "recommendedInstanceType": "c4.4xlarge"
+            },
+            "sourceServerID": "s-g806362042de18e74",
+            "tags": {
+                "Name": "GEN2KTRDS02"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-g79e19aad10270b92",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:21:47.187815+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "u:0",
+                        "replicatedStorageBytes": 21474836480,
+                        "rescannedStorageBytes": 21474836480,
+                        "totalStorageBytes": 21474836480
+                    },
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "t:0",
+                        "replicatedStorageBytes": 214748364800,
+                        "rescannedStorageBytes": 214748364800,
+                        "totalStorageBytes": 214748364800
+                    },
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "s:0",
+                        "replicatedStorageBytes": 21474836480,
+                        "rescannedStorageBytes": 21474836480,
+                        "totalStorageBytes": 21474836480
+                    },
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "p:0",
+                        "replicatedStorageBytes": 21474836480,
+                        "rescannedStorageBytes": 21474836480,
+                        "totalStorageBytes": 21474836480
+                    },
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "d:0",
+                        "replicatedStorageBytes": 268435456000,
+                        "rescannedStorageBytes": 268435456000,
+                        "totalStorageBytes": 268435456000
+                    },
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 85899345920,
+                        "rescannedStorageBytes": 85899345920,
+                        "totalStorageBytes": 85899345920
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-20T13:07:02.493505+00:00",
+                "elapsedReplicationDuration": "P1DT9H59.031464S",
+                "firstByteDateTime": "2022-03-20T13:08:48.368365+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:06:24.606348+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 85899345920,
+                        "deviceName": "c:0"
+                    },
+                    {
+                        "bytes": 268435456000,
+                        "deviceName": "d:0"
+                    },
+                    {
+                        "bytes": 21474836480,
+                        "deviceName": "p:0"
+                    },
+                    {
+                        "bytes": 21474836480,
+                        "deviceName": "s:0"
+                    },
+                    {
+                        "bytes": 214748364800,
+                        "deviceName": "t:0"
+                    },
+                    {
+                        "bytes": 21474836480,
+                        "deviceName": "u:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTSQL01.kirkbytyres.v2.sapphire",
+                    "hostname": "GEN2KTSQL01"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:08:02.432248+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.6"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-09-67-94"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 68718444544,
+                "recommendedInstanceType": "c5.9xlarge"
+            },
+            "sourceServerID": "s-g79e19aad10270b92",
+            "tags": {
+                "Name": "GEN2KTSQL01"
+            }
+        },
+        {
+            "arn": "arn:aws:mgn:eu-west-2:708136847608:source-server/s-g22f3abf15607c181",
+            "dataReplicationInfo": {
+                "dataReplicationInitiation": {
+                    "nextAttemptDateTime": "2022-03-21T22:09:00+00:00",
+                    "startDateTime": "2022-03-21T16:20:49.332834+00:00",
+                    "steps": [
+                        {
+                            "name": "WAIT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CREATE_SECURITY_GROUP",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "LAUNCH_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "BOOT_REPLICATION_SERVER",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "AUTHENTICATE_WITH_SERVICE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "DOWNLOAD_REPLICATION_SOFTWARE",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "CREATE_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "ATTACH_STAGING_DISKS",
+                            "status": "SKIPPED"
+                        },
+                        {
+                            "name": "PAIR_REPLICATION_SERVER_WITH_AGENT",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "CONNECT_AGENT_TO_REPLICATION_SERVER",
+                            "status": "SUCCEEDED"
+                        },
+                        {
+                            "name": "START_DATA_TRANSFER",
+                            "status": "SUCCEEDED"
+                        }
+                    ]
+                },
+                "dataReplicationState": "CONTINUOUS",
+                "lagDuration": "P0D",
+                "replicatedDisks": [
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "e:0",
+                        "replicatedStorageBytes": 214748364800,
+                        "rescannedStorageBytes": 214748364800,
+                        "totalStorageBytes": 214748364800
+                    },
+                    {
+                        "backloggedStorageBytes": 0,
+                        "deviceName": "c:0",
+                        "replicatedStorageBytes": 161061273600,
+                        "rescannedStorageBytes": 161061273600,
+                        "totalStorageBytes": 161061273600
+                    }
+                ]
+            },
+            "isArchived": false,
+            "lifeCycle": {
+                "addedToServiceDateTime": "2022-03-20T23:27:57.418238+00:00",
+                "elapsedReplicationDuration": "PT22H40M4.06653S",
+                "firstByteDateTime": "2022-03-20T23:29:33.554788+00:00",
+                "lastCutover": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "lastSeenByServiceDateTime": "2022-03-21T22:07:37.493565+00:00",
+                "lastTest": {
+                    "finalized": {},
+                    "initiated": {},
+                    "reverted": {}
+                },
+                "state": "READY_FOR_TEST"
+            },
+            "sourceProperties": {
+                "cpus": [
+                    {
+                        "cores": 4,
+                        "modelName": "Intel(R) Xeon(R) Gold 6134 CPU @ 3.20GHz"
+                    }
+                ],
+                "disks": [
+                    {
+                        "bytes": 161061273600,
+                        "deviceName": "c:0"
+                    },
+                    {
+                        "bytes": 214748364800,
+                        "deviceName": "e:0"
+                    }
+                ],
+                "identificationHints": {
+                    "fqdn": "GEN2KTHM01.kirkbytyres.v2.sapphire",
+                    "hostname": "GEN2KTHM01"
+                },
+                "lastUpdatedDateTime": "2022-03-21T21:28:50.215067+00:00",
+                "networkInterfaces": [
+                    {
+                        "ips": [
+                            "172.28.4.7"
+                        ],
+                        "isPrimary": true,
+                        "macAddress": "00-15-5D-08-66-87"
+                    }
+                ],
+                "os": {
+                    "fullString": "Windows Server 2016 Datacenter"
+                },
+                "ramBytes": 34358706176,
+                "recommendedInstanceType": "c4.8xlarge"
+            },
+            "sourceServerID": "s-g22f3abf15607c181",
+            "tags": {
+                "Name": "GEN2KTHM01"
+            }
+        }
+    ]
+}

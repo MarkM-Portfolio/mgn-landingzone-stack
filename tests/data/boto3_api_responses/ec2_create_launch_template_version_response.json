@@ -1,0 +1,11 @@
+{
+  "LaunchTemplateVersion": {
+    "LaunchTemplateId": "lt-01d047bef6f39c92c",
+    "LaunchTemplateName": "created-and-used-by-application-migration-service-s-gb151551e42b2d383-221803-222646",
+    "VersionNumber": 8,
+    "VersionDescription": "FooBar",
+    "CreateTime": "2022-03-22T14:33:16+00:00",
+    "CreatedBy": "arn:aws:sts::708136847608:assumed-role/OrganizationAccountAccessRole/botocore-session-1647959592",
+    "DefaultVersion": false
+  }
+}

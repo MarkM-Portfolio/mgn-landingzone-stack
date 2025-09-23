@@ -1,0 +1,8 @@
+*.gitattributes linguist-language=Git linguist-vendored=false
+*.gitignore linguist-language=Git linguist-vendored=false
+*.json linguist-language=JSON linguist-vendored=false
+*.lock linguist-language=Lock linguist-vendored=false
+*.md linguist-language=Markdown linguist-vendored=false
+*.py linguist-language=Python linguist-vendored=false
+*.pyc linguist-language=Pyc linguist-vendored=false
+*.xlsx linguist-language=Xlsx linguist-vendored=false

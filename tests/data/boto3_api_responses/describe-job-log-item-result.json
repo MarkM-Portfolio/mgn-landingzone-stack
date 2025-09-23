@@ -1,0 +1,278 @@
+{
+    "items": [
+        {
+            "event": "JOB_START",
+            "eventData": {},
+            "logDateTime": "2022-03-22T10:00:39.639572+00:00"
+        },
+        {
+            "event": "SNAPSHOT_START",
+            "eventData": {
+                "sourceServerID": "s-gb151551e42b2d383"
+            },
+            "logDateTime": "2022-03-22T10:00:39.746675+00:00"
+        },
+        {
+            "event": "SNAPSHOT_START",
+            "eventData": {
+                "sourceServerID": "s-geceb56814f57849e"
+            },
+            "logDateTime": "2022-03-22T10:00:39.760850+00:00"
+        },
+        {
+            "event": "SNAPSHOT_START",
+            "eventData": {
+                "sourceServerID": "s-gd7dc854a86bf8a97"
+            },
+            "logDateTime": "2022-03-22T10:00:39.777130+00:00"
+        },
+        {
+            "event": "SNAPSHOT_START",
+            "eventData": {
+                "sourceServerID": "s-gdd036657128b27b5"
+            },
+            "logDateTime": "2022-03-22T10:00:39.791569+00:00"
+        },
+        {
+            "event": "SNAPSHOT_START",
+            "eventData": {
+                "sourceServerID": "s-g806362042de18e74"
+            },
+            "logDateTime": "2022-03-22T10:00:39.804964+00:00"
+        },
+        {
+            "event": "SNAPSHOT_START",
+            "eventData": {
+                "sourceServerID": "s-g79e19aad10270b92"
+            },
+            "logDateTime": "2022-03-22T10:00:39.818379+00:00"
+        },
+        {
+            "event": "SNAPSHOT_END",
+            "eventData": {
+                "sourceServerID": "s-gb151551e42b2d383"
+            },
+            "logDateTime": "2022-03-22T10:01:40.593075+00:00"
+        },
+        {
+            "event": "SNAPSHOT_END",
+            "eventData": {
+                "sourceServerID": "s-geceb56814f57849e"
+            },
+            "logDateTime": "2022-03-22T10:01:40.607696+00:00"
+        },
+        {
+            "event": "SNAPSHOT_END",
+            "eventData": {
+                "sourceServerID": "s-gd7dc854a86bf8a97"
+            },
+            "logDateTime": "2022-03-22T10:01:40.621789+00:00"
+        },
+        {
+            "event": "SNAPSHOT_END",
+            "eventData": {
+                "sourceServerID": "s-gdd036657128b27b5"
+            },
+            "logDateTime": "2022-03-22T10:01:40.635742+00:00"
+        },
+        {
+            "event": "SNAPSHOT_END",
+            "eventData": {
+                "sourceServerID": "s-g806362042de18e74"
+            },
+            "logDateTime": "2022-03-22T10:01:40.650012+00:00"
+        },
+        {
+            "event": "SNAPSHOT_END",
+            "eventData": {
+                "sourceServerID": "s-g79e19aad10270b92"
+            },
+            "logDateTime": "2022-03-22T10:01:40.663934+00:00"
+        },
+        {
+            "event": "CONVERSION_START",
+            "eventData": {
+                "sourceServerID": "s-gb151551e42b2d383"
+            },
+            "logDateTime": "2022-03-22T10:01:41.575313+00:00"
+        },
+        {
+            "event": "CONVERSION_START",
+            "eventData": {
+                "sourceServerID": "s-geceb56814f57849e"
+            },
+            "logDateTime": "2022-03-22T10:01:41.589546+00:00"
+        },
+        {
+            "event": "CONVERSION_START",
+            "eventData": {
+                "sourceServerID": "s-gd7dc854a86bf8a97"
+            },
+            "logDateTime": "2022-03-22T10:01:41.603480+00:00"
+        },
+        {
+            "event": "CONVERSION_START",
+            "eventData": {
+                "sourceServerID": "s-gdd036657128b27b5"
+            },
+            "logDateTime": "2022-03-22T10:01:41.617144+00:00"
+        },
+        {
+            "event": "CONVERSION_START",
+            "eventData": {
+                "sourceServerID": "s-g806362042de18e74"
+            },
+            "logDateTime": "2022-03-22T10:01:41.631854+00:00"
+        },
+        {
+            "event": "CONVERSION_START",
+            "eventData": {
+                "sourceServerID": "s-g79e19aad10270b92"
+            },
+            "logDateTime": "2022-03-22T10:01:41.646790+00:00"
+        },
+        {
+            "event": "CONVERSION_END",
+            "eventData": {
+                "conversionServerID": "i-017ead4ad7d9b18f4",
+                "sourceServerID": "s-geceb56814f57849e"
+            },
+            "logDateTime": "2022-03-22T10:12:59.397179+00:00"
+        },
+        {
+            "event": "CONVERSION_END",
+            "eventData": {
+                "conversionServerID": "i-0fa639fb26667ef54",
+                "sourceServerID": "s-gb151551e42b2d383"
+            },
+            "logDateTime": "2022-03-22T10:13:11.089401+00:00"
+        },
+        {
+            "event": "CONVERSION_END",
+            "eventData": {
+                "conversionServerID": "i-05139feacfed79bab",
+                "sourceServerID": "s-gd7dc854a86bf8a97"
+            },
+            "logDateTime": "2022-03-22T10:13:24.307065+00:00"
+        },
+        {
+            "event": "CONVERSION_END",
+            "eventData": {
+                "conversionServerID": "i-06ebbd5848b8e92df",
+                "sourceServerID": "s-gdd036657128b27b5"
+            },
+            "logDateTime": "2022-03-22T10:13:52.607950+00:00"
+        },
+        {
+            "event": "CONVERSION_END",
+            "eventData": {
+                "conversionServerID": "i-0dc58c0a6b9b22c4c",
+                "sourceServerID": "s-g79e19aad10270b92"
+            },
+            "logDateTime": "2022-03-22T10:14:40.386213+00:00"
+        },
+        {
+            "event": "CONVERSION_END",
+            "eventData": {
+                "conversionServerID": "i-0b7e80c94413e8458",
+                "sourceServerID": "s-g806362042de18e74"
+            },
+            "logDateTime": "2022-03-22T10:15:04.548345+00:00"
+        },
+        {
+            "event": "LAUNCH_START",
+            "eventData": {
+                "sourceServerID": "s-gb151551e42b2d383"
+            },
+            "logDateTime": "2022-03-22T10:15:04.909187+00:00"
+        },
+        {
+            "event": "LAUNCH_START",
+            "eventData": {
+                "sourceServerID": "s-geceb56814f57849e"
+            },
+            "logDateTime": "2022-03-22T10:15:04.936870+00:00"
+        },
+        {
+            "event": "LAUNCH_START",
+            "eventData": {
+                "sourceServerID": "s-gd7dc854a86bf8a97"
+            },
+            "logDateTime": "2022-03-22T10:15:04.965397+00:00"
+        },
+        {
+            "event": "LAUNCH_START",
+            "eventData": {
+                "sourceServerID": "s-gdd036657128b27b5"
+            },
+            "logDateTime": "2022-03-22T10:15:04.999464+00:00"
+        },
+        {
+            "event": "LAUNCH_START",
+            "eventData": {
+                "sourceServerID": "s-g806362042de18e74"
+            },
+            "logDateTime": "2022-03-22T10:15:05.044536+00:00"
+        },
+        {
+            "event": "LAUNCH_START",
+            "eventData": {
+                "sourceServerID": "s-g79e19aad10270b92"
+            },
+            "logDateTime": "2022-03-22T10:15:05.084889+00:00"
+        },
+        {
+            "event": "LAUNCH_END",
+            "eventData": {
+                "sourceServerID": "s-gb151551e42b2d383",
+                "targetInstanceID": "i-027f380394c99b7dc"
+            },
+            "logDateTime": "2022-03-22T10:17:33.161438+00:00"
+        },
+        {
+            "event": "LAUNCH_END",
+            "eventData": {
+                "sourceServerID": "s-gd7dc854a86bf8a97",
+                "targetInstanceID": "i-0c44e697b4ca117e6"
+            },
+            "logDateTime": "2022-03-22T10:20:04.304952+00:00"
+        },
+        {
+            "event": "LAUNCH_END",
+            "eventData": {
+                "sourceServerID": "s-g806362042de18e74",
+                "targetInstanceID": "i-0be78be746ea0d957"
+            },
+            "logDateTime": "2022-03-22T10:20:18.935720+00:00"
+        },
+        {
+            "event": "LAUNCH_END",
+            "eventData": {
+                "sourceServerID": "s-gdd036657128b27b5",
+                "targetInstanceID": "i-004e5f626216edc68"
+            },
+            "logDateTime": "2022-03-22T10:20:19.023623+00:00"
+        },
+        {
+            "event": "LAUNCH_END",
+            "eventData": {
+                "sourceServerID": "s-geceb56814f57849e",
+                "targetInstanceID": "i-0b6fd6e5cdf18fb9a"
+            },
+            "logDateTime": "2022-03-22T10:20:19.265668+00:00"
+        },
+        {
+            "event": "LAUNCH_END",
+            "eventData": {
+                "sourceServerID": "s-g79e19aad10270b92",
+                "targetInstanceID": "i-0b08f299b89e34e2e"
+            },
+            "logDateTime": "2022-03-22T10:20:38.297890+00:00"
+        },
+        {
+            "event": "JOB_END",
+            "eventData": {},
+            "logDateTime": "2022-03-22T10:20:39.755377+00:00"
+        }
+    ]
+}
